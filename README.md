@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/solutions/huddle-landing-page-with-single-introductory-section-xvMxJtxT9e)
+-   Live Site URL: [Huddle landing page with single introductory section](https://huddle-landing-page-with-single-introductory-section-frontend.vercel.app)
 
 ## My process
 
