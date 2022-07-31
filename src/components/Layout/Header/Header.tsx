@@ -10,7 +10,13 @@ export const Header = () => (
 	<header className={classes.header}>
 		<nav>
 			<a href="#" aria-label="Huddle - Home">
-				<img className={classes.logoImg} src={logo} alt="Huddle" width="120" height="49pt" />
+				<img
+					className={classes.logoImg}
+					src={logo}
+					alt="Huddle"
+					width="120"
+					height="49"
+				/>
 			</a>
 		</nav>
 	</header>
