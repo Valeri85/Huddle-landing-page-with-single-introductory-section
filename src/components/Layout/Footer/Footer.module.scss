@@ -1,0 +1,28 @@
+@use '../../../assets/styles/helpers/_mixins.scss' as *;
+
+.footer {
+	margin-top: auto;
+	padding-bottom: 0.5em;
+	text-align: center;
+}
+
+.text {
+	display: inline-block;
+	margin-bottom: 0.5em;
+	@include large-screen {
+		margin-bottom: 0;
+		&:first-of-type {
+			margin-right: 2em;
+		}
+	}
+}
+
+.frontEndMentorLink {
+	color: var(--clr-secondary-100);
+	text-decoration: underline;
+	transition: color var(--animation-time) ease-in-out;
+	&:hover {
+		color: var(--clr-primary-300);
+		text-decoration: none;
+	}
+}

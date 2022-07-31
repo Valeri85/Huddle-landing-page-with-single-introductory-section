@@ -1,0 +1,13 @@
+@use '../../../assets/styles/helpers/mixins' as *;
+
+body {
+	padding: 2.45em;
+	background-image: url('../../../../public/bg-mobile.svg');
+	background-repeat: no-repeat;
+	background-color: var(--clr-primary-400);
+	font-size: var(--font-size-body);
+	@include large-screen {
+		padding: 3em 5em;
+		background-image: url('../../../../public/bg-desktop.svg');
+	}
+}

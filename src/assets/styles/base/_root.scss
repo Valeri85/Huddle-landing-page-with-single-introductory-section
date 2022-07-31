@@ -1,0 +1,35 @@
+:root {
+	/* Background Colors */
+	--clr-primary-300: hsl(300, 69%, 71%);
+	--clr-primary-400: hsl(257, 40%, 49%);
+	--clr-secondary-100: hsl(0, 0%, 100%);
+	--clr-secondary-200: hsl(0, 0%, 85%);
+
+	/* Shadows */
+	--shadow: 0 5px 5px 0 hsla(0, 0%, 0%, 0.15);
+
+	/* Responsive Paddings */
+	// --padding: ;
+
+	/* Border Radiuses */
+	--border-radius: 100vh;
+
+	/* Font Families */
+	--font-family-primary: 'Poppins', sans-serif;
+	--font-family-secondary: 'Open Sans', sans-serif;
+
+	/* Font Sizes */
+	--font-size-body: clamp(1.5rem, 1.4545rem + 0.1212vw, 1.6rem);
+	--font-size-h1: clamp(2.5rem, 1.8182rem + 1.8182vw, 4rem);
+	// --font-size-h2: clamp(1.4rem, 1.1273rem + 0.7273vw, 2rem);
+	// --font-size-h3: ;
+	--font-size-text: clamp(1.5rem, 1.3636rem + 0.3636vw, 1.8rem);
+
+	/* Font Weights */
+	--font-weight-400: 400;
+	--font-weight-600: 600;
+	// --font-weight-700: 700;
+
+	/* Animations */
+	--animation-time: 500ms;
+}

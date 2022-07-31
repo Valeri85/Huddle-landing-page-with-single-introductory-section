@@ -1,0 +1,43 @@
+@use '../../assets/styles/helpers/mixins' as *;
+
+.socialIconsList {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1em;
+	margin-bottom: 1em;
+	@include large-screen {
+		justify-content: flex-end;
+		margin-bottom: 0;
+	}
+}
+
+.socialIconLink {
+	--iconSize: 2.5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: var(--iconSize);
+	height: var(--iconSize);
+	padding: 0.65em;
+	border: 1px solid var(--clr-secondary-100);
+	border-radius: var(--border-radius);
+	transition: background-color var(--animation-time) ease-in-out,
+		border var(--animation-time) ease-in-out;
+	&:hover {
+		background-color: var(--clr-primary-400);
+		border: 1px solid var(--clr-primary-300);
+		svg {
+			fill: var(--clr-primary-300);
+		}
+	}
+}
+
+.facebookLink {
+	padding: 0.75em;
+}
+
+.svgIcon {
+	fill: var(--clr-secondary-100);
+	transition: fill var(--animation-time) ease-in-out;
+}

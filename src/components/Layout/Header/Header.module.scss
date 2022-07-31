@@ -1,0 +1,8 @@
+@use '../../../assets/styles/helpers/mixins' as *;
+@use '../../../assets/styles/helpers/functions' as *;
+
+.logoImg {
+	@include large-screen {
+		width: em(230);
+	}
+}

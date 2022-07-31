@@ -1,0 +1,44 @@
+@use '../../assets/styles/helpers/mixins' as *;
+
+.content {
+	@include large-screen {
+		flex-basis: 45%;
+		padding: 2.5em;
+	}
+}
+
+.mainTitle {
+	margin: 2.5em 0 0.5em 0;
+	font-size: var(--font-size-h1);
+	font-weight: var(--font-weight-600);
+	@include large-screen {
+		margin: 0 0 0.5em 0;
+	}
+}
+
+.text {
+	max-width: 50ch;
+	font-family: var(--font-family-secondary);
+	font-size: var(--font-size-text);
+	font-weight: var(--font-weight-300);
+	color: var(--clr-secondary-200);
+}
+
+.btn {
+	margin-top: 2em;
+	padding: 0.85em 5em;
+	box-shadow: var(--shadow);
+	border: 0;
+	border-radius: var(--border-radius);
+	color: var(--clr-primary-400);
+	transition: background-color var(--animation-time) ease-out,
+		color var(--animation-time) ease-out;
+	cursor: pointer;
+	&:hover {
+		background-color: var(--clr-primary-300);
+		color: var(--clr-secondary-100);
+	}
+	@include large-screen {
+		padding: 0.85em 4em;
+	}
+}

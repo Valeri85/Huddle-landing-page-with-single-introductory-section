@@ -1,0 +1,12 @@
+@use '../../../assets/styles/helpers/mixins' as *;
+
+.main {
+	margin-block: 3.85em;
+	text-align: center;
+	@include large-screen {
+		display: flex;
+		gap: 1em;
+		margin: 5em 0 0;
+		text-align: left;
+	}
+}

@@ -1,0 +1,7 @@
+@use '../../assets/styles/helpers/mixins' as *;
+
+.illustration {
+	@include large-screen {
+		flex-basis: 55%;
+	}
+}
